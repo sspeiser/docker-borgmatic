@@ -6,6 +6,7 @@ RUN apk upgrade --no-cache \
     && apk add --no-cache \
     alpine-sdk \
     python3-dev \
+    openssl-dev \
     linux-headers \
     # Below this line are requirements for ntfy
     libffi-dev \
