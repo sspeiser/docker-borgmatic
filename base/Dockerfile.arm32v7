@@ -23,7 +23,7 @@ RUN apk upgrade --no-cache \
     acl-dev \
     linux-headers \
     fuse-dev \
-    attr-dev 
+    attr-dev \
     && pip3 install --upgrade pip \
     && pip3 install --upgrade borgbackup==${BORG_VERSION} \
     && pip3 install --upgrade borgmatic==${BORGMATIC_VERSION} \
